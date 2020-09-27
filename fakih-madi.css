@@ -1,0 +1,114 @@
+body{
+
+    background-color:#F8B0C8;
+    font-family: tahoma;
+    font-weight: bold;
+    color: #FFFFFF;
+    justify-content: center;
+}
+
+        h1 {
+            font-size: 2rem;
+            margin: 0;
+            width: 50%;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            color: #17202A;
+            background-color: #E5E7E9;
+            border: 3px solid none;
+            border-radius: 200px 119px 200px 0px;
+
+
+        }
+
+        h2 {
+            text-align: center;
+            color: #17202A;
+            background-color: #E5E7E9
+            border: 3px solid none;
+            border-radius: 87px 87px 87px 87px;
+            padding-bottom: 10px;
+        }
+
+        h3 {
+            text-align: center;
+            background-color: #E5E7E9;
+            color: #17202A;
+            max-width: 60%;
+            min-width: 40%;
+            margin: auto;
+            border-radius: 87px 87px 87px 87px;
+           
+        }
+
+        #boite {
+            display:flex;
+            margin: 5px;
+            padding-bottom:-450px;
+            justify-content: space-around;
+        }
+
+        .image{
+
+        }
+
+        .infos {
+            min-width:30%;
+            text-align: center;
+            padding:10px;
+            margin:10px;
+            border: 3px solid none;
+            background-color: #3E2A93;
+            border-radius: 87px 87px 87px 87px;
+            box-shadow: -1px 3px 15px 5px rgba(0,0,0,0.75);
+         }
+
+        .profil {
+            min-width:30%;
+            text-align: center;
+            padding:10px;
+            margin:10px;
+            border: 3px solid none;
+            background-color: #3E2A93;
+            border-radius: 87px 87px 87px 87px;
+            box-shadow: -1px 3px 15px 5px rgba(0,0,0,0.75);
+         }
+
+        #boite2{
+            display:flex;
+            margin: 105px;
+            padding-bottom:-450px;
+            justify-content: space-between;
+        }
+        .hobbies {
+            min-width:30%;
+            text-align: center;
+            padding:10px;
+            margin:10px;
+            border: 3px solid none;
+            background-color: #F8624A;
+            border-radius: 87px 87px 87px 87px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+
+        #logo, #logo1, #logo2{
+            border: 1px solid none;
+            border-radius: 200px 200px 200px 200px;
+            margin: 20px;
+        }
+        
+        #phrase{
+           max-width: 30%;
+            text-align: center;
+            padding:10px;
+            margin:10px;
+            border: 3px solid none;
+            background-color: #F8624A;
+            border-radius: 87px 87px 87px 87px;
+            box-shadow: -1px 3px 15px 5px rgba(0,0,0,0.75);
+        }
+  

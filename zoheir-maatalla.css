@@ -1,0 +1,109 @@
+			
+			img{
+				
+				 border: 1px solid #ddd;
+                 border-radius: 30px;
+                 padding: 5px;
+                 width: 150px;
+				
+			}	
+				
+				 h1 {
+            font-size: 2rem;
+            margin: 0;
+            text-align: center;
+            color: black;
+            background-color: red;
+			border-radius:30%;
+
+            text-shadow: 1px 1px white, -1px -1px #444
+        }
+body{
+	margin: 60px;
+	
+	
+	
+}
+        .img-center {
+            display: block;
+            margin-top: 2rem;
+            margin-left: auto;
+            margin-right: auto;
+            text-align: center;
+            height: auto;
+            max-width: 60%;
+        }
+
+
+        h2 {
+            text-align: center;
+            color: #117772;
+        }
+
+        h3 {
+            text-align: center;
+            background-color: #bac51f;
+            color: black;
+           
+        }
+
+        
+            
+            
+     
+
+        .mata-1 {
+            min-width:30%;
+            text-align: left;
+            padding:05px;
+            margin:5px;
+			text-align:center;
+        }
+
+         .mata-2 {
+            min-width:30%;
+            text-align: left;
+            padding:5px;
+            margin:5px;
+			text-align:center;
+         }
+
+          .mata-3 {
+            min-width:30%;
+            text-align: right;
+            padding:05px;
+            margin:5px;
+			text-align:center;
+          }
+
+        .card-row {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px;
+        }
+
+        .card {
+            width: 160px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .img-card {
+            width: 85%;
+            height: auto;
+        }
+
+        a:link,
+        a:visited {
+            background-color: #f44336;
+            color: white;
+            padding: 14px 25px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        a:hover,
+        a:active {
+            background-color: red;
+        }

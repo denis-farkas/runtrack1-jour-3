@@ -1,0 +1,105 @@
+h1 {
+    font-size: 2rem;
+    margin: 0;
+    text-align: center;
+    color: #FFFFFF;
+    background-color: #117772;
+    -moz-animation-duration: 3s;
+    -webkit-animation-duration: 3s;
+    -moz-animation-name: slidein;
+    -webkit-animation-name: slidein;
+}
+
+@-moz-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+
+@-webkit-keyframes slidein {
+    from {
+        margin-left: 100%;
+        width: 300%
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+}
+.conteneur {
+    display: block;
+    margin: 0 auto;
+    background-color: #f190c9;
+    padding: 30px;
+    font-family: serif;
+    font-weight: bold;
+    justify-content: center;
+}
+
+.img-center {
+    display: block;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    height: auto;
+    width: 300px;
+}
+
+h2 {
+    text-align: center;
+    color: #117772;
+}
+
+h3 {
+    text-align: center;
+    background-color: #117772;
+    color: white;
+}
+
+.row {
+    display: flex;
+    margin: 10px;
+}
+
+.column {
+    min-width: 30%;
+    text-align: left;
+    padding: 10px;
+    margin: 10px;
+    color: #117772;
+}
+
+.card-row {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.card {
+    width: 160px;
+    padding: 20px;
+    text-align: center;
+}
+
+.bouton { 
+margin-top: 20px;
+font-weight: bold;
+font-size: 20px;
+padding: 10px;
+background-color: #66a2fe;
+border: none;
+width: 100%;
+color: #FFF;
+}
+
+
+
+

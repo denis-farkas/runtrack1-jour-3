@@ -1,0 +1,88 @@
+.retour{
+	background-color: red;
+	padding: 5px;
+	position: fixed;
+	top: 0;
+	left: 0; 
+}
+a{
+	background-color: orange;
+	padding: 5px;
+		text-decoration: none;
+		color: green;
+
+}
+.citation{
+	background-color: inherit;
+	letter-spacing: 13px;
+	font-size: 25px;
+	line-height: 80px;
+	font-style: italic;
+}
+.sousphoto{
+	visibility: hidden;
+}
+
+img{
+	border-radius: 50%;
+	box-shadow: 5px 5px 5px white;
+}
+.btnbasdepage{
+	position: absolute;
+	right: 0;
+	top: 100px;
+}
+.msgdefin{
+	background-color: orange;
+
+}
+a:hover{
+	opacity: 0.20;
+	transition: 5s;
+}
+
+body{
+	margin:0;
+	text-align: center;
+	background-color: grey;
+	background-size: cover;
+	opacity: 0.70;
+}
+
+h1{
+	
+	margin-left:  100px;
+	margin-right:  100px;
+	color: red;
+	letter-spacing: 2.5px;
+	font-weight: 100;
+	font-size: 40px;
+	text-shadow: 2px 2px 2px white;
+}
+
+h2{
+	background-color: orange;
+	color:black;
+	letter-spacing: 2px;
+	font-weight: 100;
+
+
+}
+
+h3{
+	background-color: orange;
+	letter-spacing: 2px;
+	font-weight: 100;
+	font-size: 20px;
+	box-shadow: 10px 10px 10px black;
+	text-transform: uppercase;
+	font-style: italic;
+
+}
+
+p{
+	color: blue;
+	letter-spacing: 2px;
+	font-weight: 100;
+	font-size: 15px;
+}
